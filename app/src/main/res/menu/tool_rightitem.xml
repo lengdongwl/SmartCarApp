@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="car.bkrc.com.car2018.FirstActivity">
+
+    <item android:id="@+id/jiajian"
+        android:title=""
+        app:showAsAction="always"
+        app:actionLayout="@layout/jj" />
+
+    <group>
+        <item
+            android:id="@+id/full_automatic"
+            android:title="自动驾驶"
+            app:showAsAction="always"
+             />
+    </group>
+
+    <group>
+
+    <item
+        android:id="@+id/car_status"
+        android:title="@string/follow_status"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/car_control"
+        android:title="@string/follow_control"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/clear_coded_disc"
+        android:title="清除码盘"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/reconnect"
+        android:title="重新连接"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/deal_wifi"
+        android:title="开始处理"
+        app:showAsAction="never" />
+    </group>
+
+    <group>
+        <item
+            android:id="@+id/test"
+            android:title="测试"
+            app:showAsAction="always" />
+    </group>
+
+</menu>
